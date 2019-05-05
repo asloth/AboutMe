@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 10px;
+}
+nav{
+    grid-column: span 2;
+}
+header img{
+    background-color: black;
+    border-radius: 70%;
+    width: 60px;
+    height: 60px;
+    margin: 0;
+}
+/* .container img{
+    width: 300px;
+    height: 150px;
+} */
+table{
+    padding: 10px;
+    /* border-spacing: 0; */
+    border-collapse: separate ;
+}
+/* td{
+    padding-right: 60px;
+} */
+
+th, td{
+    padding-right: 60px;
+    background-color: rgb(190, 190, 190);
+}
+header ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+li{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding:0;
+}
+ul li:hover a {
+    background-color: white;
+    color: black;
+
+}
+nav ul li a{
+    color: white;
+    margin: 0;
+    padding: 15px 30px 15px 30px;
+    border: 0;
+}
+a{
+    text-decoration: none;
+}
+
+h1{
+    margin-block-end: 0.50em;
+    margin-block-start: 0.50em;
+}
+.container{
+    display: grid;
+    grid-template-columns: 19% 81% ;
+}
+.info{
+    display: grid;
+    /* grid-template-rows: 50px 50px 50px; */
+}
+.container a{
+    color: black;
+}
+footer{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+.post{
+    padding-left: 50px;    
+    padding-right: 20px;    
+    background-color: rgb(218, 221, 220);
+}
+footer ul{
+    list-style-type: none;
+    align-items: center;
+    padding-left: 100px;
+}
+.fcontainer{
+    /* background-color:black; */
+    display: grid;
+    color: white;
+    grid-template-columns: repeat(5,20%);
+    padding-left: 100px;
+}
+aside{
+    padding-top: 170px;
+    padding-bottom: 190px;
+    background-color: white;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+/* aside{
+    
+} */
+/* .post{
+    
+} */
+#post01{
+    grid-column: 2/3;
+}
+#post02{
+    grid-column: 3/4;
+}
+#post03{
+    grid-column: 4/5;
+}
